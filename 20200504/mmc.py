@@ -1,8 +1,8 @@
 # TrabalhoComputationalThinking-2020.pdf
-# Exercício 4
-# Dados dois números inteiro positivos a e b, escreva um algoritmo que encontra o maior
-# número inteiro que divide o número a e o número b.
-# Faça, no papel, dois testes de mesa do seu algoritmo e envie como descrito no exercício anterior.
+# Exercício 3
+# Dados dois números inteiro positivos a e b, escreva um algoritmo que encontra o menor número inteiro
+# que é múltiplo do número a e do número b. Neste exercício, você deverá validar as informações de entrada, ou seja,
+# a e b devem ser número positivos.
 
 # Versão Simplificada
 
