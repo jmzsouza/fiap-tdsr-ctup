@@ -9,7 +9,7 @@ def encontra(frase, palavra):
     i = 0
     ocorrencias = 0
     while i < len(frase):
-        if frase[i:i+3] == palavra:
+        if frase[i:i+len(palavra)] == palavra:
             ocorrencias = ocorrencias + 1
         i = i + 1
     return ocorrencias
