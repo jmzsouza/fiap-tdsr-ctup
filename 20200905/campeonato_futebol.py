@@ -95,7 +95,7 @@ def criaPartida(mandante, visitante):
     golsVisitante = random.randint(0, 10)
 
     addGols(mandante, golsMandante, golsVisitante)
-    addGols(visitante, golsVisitante, golsVisitante)  
+    addGols(visitante, golsVisitante, golsMandante)  
 
     if golsMandante > golsVisitante:
         addVitoria(mandante)
