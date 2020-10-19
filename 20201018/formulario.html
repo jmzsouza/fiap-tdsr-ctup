@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Biblioteca Pyautogui</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container dp-flex-cen">
+        <div class="row dp-flex-cen">
+            <div class="col-10 text-left">
+                <div class="card">
+                    <div class="card-header h4 text-center">
+                        <strong>Formulário - Usando a Biblioteca PyAutoGui</strong>
+                    </div>
+                    <div class="card-body">
+                        <form name="formulario" id="formulario" method="post" action="resposta.html">
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Nome</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="Exemplo Grupo XPTO" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="nome@exemplo.com" required>
+                            </div>
+                            <div class="dp-flex-cen">
+                                <div class="col-5 form-group dp-flex-cen">
+                                    <div>
+                                        <div>
+                                            <label>Formação:</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="formacao" id="formacao2"
+                                                value="option2">
+                                            <label class="form-check-label" for="formacao2">Ensino Superior</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="formacao" id="formacao3"
+                                                value="option3">
+                                            <label class="form-check-label" for="formacao3">Pós Graduação</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="formacao" id="formacao4"
+                                                value="option4">
+                                            <label class="form-check-label" for="formacao4">Mestrado</label>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-5 form-group dp-flex-cen">
+                                    <div>
+                                        <div>
+                                            <label>Área de Interesse:</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="interesse1"
+                                                value="option1">
+                                            <label class="form-check-label" for="interesse1">Front-End</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="interesse2"
+                                                value="option2">
+                                            <label class="form-check-label" for="interesse2">Back-End</label>
+                                        </div>
+                                        <div class="form-check" aria-checked="">
+                                            <input class="form-check-input" type="checkbox" id="interesse3"
+                                                value="option3">
+                                            <label class="form-check-label" for="interesse3">Full-Stack</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Estado</label>
+                                <select class="form-control" id="exampleFormControlSelect1" required>
+                                    <option select>Selecione o estado</option>
+                                    <option value="0">RS</option>
+                                    <option value="1">SC</option>
+                                    <option value="2">PR</option>
+                                    <option value="3">SP</option>
+                                    <option value="4">RJ</option>
+                                    <option value="5">MG</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensagem</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Deixe seu comentário..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-lg btn-block">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
